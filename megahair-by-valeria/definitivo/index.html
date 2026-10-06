@@ -7,7 +7,7 @@
 <meta name="description" content="Taglio, colore e piega in Via dal Lino, con l&#39;esperienza di Valeria e una formazione che si rinnova nelle migliori accademie inglesi.">
 <meta name="robots" content="noindex">
 <meta name="theme-color" content="#f4f1ec">
-<link rel="icon" href="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2040%2040%22%20aria-hidden%3D%22true%22%3E%3Ccircle%20cx%3D%2220%22%20cy%3D%2220%22%20r%3D%2219%22%20fill%3D%22%231c1b1a%22%2F%3E%3Ccircle%20cx%3D%2220%22%20cy%3D%2220%22%20r%3D%2215.5%22%20fill%3D%22none%22%20stroke%3D%22%23f4f1ec%22%20stroke-opacity%3D%22.45%22%2F%3E%3Ctext%20x%3D%2220%22%20y%3D%2220%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22central%22%20font-family%3D%22Jost%2Cserif%22%20font-size%3D%2215%22%20font-weight%3D%22600%22%20fill%3D%22%23f4f1ec%22%3EMV%3C%2Ftext%3E%3C%2Fsvg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2040%2040%22%20aria-hidden%3D%22true%22%3E%3Crect%20width%3D%2240%22%20height%3D%2240%22%20fill%3D%22%231c1b1a%22%2F%3E%3Ctext%20x%3D%2220%22%20y%3D%2218.5%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22central%22%20font-family%3D%22Jost%2CFutura%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22300%22%20fill%3D%22%23f4f1ec%22%3Em%3C%2Ftext%3E%3C%2Fsvg%3E">
 
 <link href="fonts/fonts.css" rel="stylesheet">
 <style>
@@ -81,6 +81,9 @@ section{padding:88px 0}
 .svc p{color:var(--muted);font-size:15px}
 .svc .price{font-weight:600;color:var(--accent);white-space:nowrap;font-size:15px}
 .note{font-size:13px;color:var(--muted);margin-top:18px}
+.svc.listino{align-items:start}.svc .gr{font-size:14px;letter-spacing:.2em;color:var(--accent);margin:34px 0 4px}.svc>div:first-child .gr{margin-top:0}@media(min-width:940px){.svc>div:nth-child(2) .gr{margin-top:0}}.listino .row{padding:14px 0}.listino .row h3{font-size:16.5px;letter-spacing:.08em}
+.brand,.brand text{text-transform:none}
+@media(max-width:640px){.gal figure:nth-child(4):last-child{grid-column:span 2}}
 /* gallery */
 .gal{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:220px;gap:12px}
 .gal img{width:100%;height:100%;object-fit:cover;border-radius:var(--r);transition:transform .5s}
@@ -127,7 +130,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 
 <nav>
   <div class="wrap">
-    <a class="brand" href="#"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#1c1b1a"/><circle cx="20" cy="20" r="15.5" fill="none" stroke="#f4f1ec" stroke-opacity=".45"/><text x="20" y="20" text-anchor="middle" dominant-baseline="central" font-family="Jost,serif" font-size="15" font-weight="600" fill="#f4f1ec">MV</text></svg><span>Megahair by Valeria</span></a>
+    <a class="brand" href="#"><svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" fill="#1c1b1a"/><text x="20" y="18.5" text-anchor="middle" dominant-baseline="central" font-family="Jost,Futura,sans-serif" font-size="30" font-weight="300" fill="#f4f1ec">m</text></svg><span>megahair by Valeria</span></a>
     <ul><li><a href="#chi-siamo">Chi siamo</a></li><li><a href="#servizi">Servizi</a></li><li><a href="#galleria">Galleria</a></li><li><a href="#contatti">Contatti</a></li></ul>
     <a class="btn" href="tel:051435809">Chiama e prenota</a>
   </div>
@@ -142,17 +145,17 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
     <div class="ctas"><a class="btn" href="tel:051435809">Chiama e prenota</a><a class="btn ghost" href="#servizi">Scopri i servizi</a></div>
   </div>
   <div class="img">
-    <img src="https://images.unsplash.com/photo-1669501084883-85849ad2d40f?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Parrucchiere Megahair By Valeria" fetchpriority="high">
+    <img src="img/ricci-neri.jpg" alt="Parrucchiere Megahair By Valeria" fetchpriority="high">
     <div class="badge"><b>Dal 1982</b>Oltre quarant&#39;anni di passione per i capelli.</div>
   </div>
 </header>
 
 
-<div class="wrap"><div class="hl reveal"><div><b>Tagli e geometrie</b><span>Linee studiate sul tuo viso e sul tuo stile.</span></div><div><b>Colore su misura</b><span>Tinte, balayage e riflessi abbinati a te.</span></div><div><b>Cheratina e ricci</b><span>Trattamenti per capelli lisci o ricci definiti.</span></div></div></div>
+<div class="wrap"><div class="hl reveal"><div><b>Tagli e geometrie</b><span>Linee studiate sul tuo viso e sul tuo stile.</span></div><div><b>Colore e schiariture</b><span>Colore, riflessi e schiariture anche a mano libera.</span></div><div><b>Cheratina e nanoplastia</b><span>Per capelli lisci, morbidi e senza crespo.</span></div></div></div>
 
 <section id="chi-siamo">
   <div class="wrap about">
-    <img class="reveal" src="https://images.unsplash.com/photo-1629397685944-7073f5589754?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Il salone" loading="lazy">
+    <img class="reveal" src="img/salone-poltrone.jpg" alt="Il salone" loading="lazy">
     <div class="reveal">
       <div class="eyebrow">Chi siamo</div>
       <h2>Valeria, dal 1982</h2>
@@ -164,16 +167,16 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 
 <section id="servizi" style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
   <div class="wrap">
-    <div class="sec-head reveal"><div><div class="eyebrow">Servizi e listino</div><h2>I servizi</h2></div><p>Prezzi indicativi: il costo esatto dipende da lunghezza e tipo di capello.</p></div>
-    <div class="svc reveal"><div class="row"><div><h3>Taglio donna e piega</h3><p>Shampoo, taglio e piega.</p></div><div class="price">da 35 €</div></div><div class="row"><div><h3>Piega</h3><p>Liscia, mossa o raccolta.</p></div><div class="price">da 18 €</div></div><div class="row"><div><h3>Colore</h3><p>Tinta completa o ritocco radici.</p></div><div class="price">da 40 €</div></div><div class="row"><div><h3>Balayage</h3><p>Luce naturale e sfumature morbide.</p></div><div class="price">da 70 €</div></div><div class="row"><div><h3>Trattamento alla cheratina</h3><p>Capelli più lisci, morbidi e facili da gestire.</p></div><div class="price">da 80 €</div></div><div class="row"><div><h3>Trattamenti per capelli ricci</h3><p>Ricci definiti, idratati e senza crespo.</p></div><div class="price">da 25 €</div></div></div>
-    <p class="note">Prezzi indicativi di esempio: nella versione definitiva inseriamo il vostro listino.</p>
+    <div class="sec-head reveal"><div><div class="eyebrow">Listino</div><h2>Servizi e prezzi</h2></div><p>Dove trovi una fascia di prezzo, il costo dipende dalla lunghezza e dal tipo di capello.</p></div>
+    <div class="svc listino reveal"><div><h3 class="gr">Taglio e piega</h3><div class="row"><div><h3>Piega capello corto</h3><p>Shampoo e maschera compresi.</p></div><div class="price">30 €</div></div><div class="row"><div><h3>Piega capello lungo</h3><p>Shampoo e maschera compresi.</p></div><div class="price">30 €</div></div><div class="row"><div><h3>Taglio uomo e donna</h3></div><div class="price">30 €</div></div><div class="row"><div><h3>Taglio frangia</h3></div><div class="price">5 €</div></div><div class="row"><div><h3>Refresh taglio</h3></div><div class="price">20 €</div></div><div class="row"><div><h3>Acconciatura da sposa</h3></div><div class="price">30 € a prova</div></div></div><div><h3 class="gr">Colore e schiariture</h3><div class="row"><div><h3>Colore o riflesso</h3></div><div class="price">45 €</div></div><div class="row"><div><h3>Olio schiarente</h3></div><div class="price">45 €</div></div><div class="row"><div><h3>Decappaggio</h3></div><div class="price">50 – 70 € a volta</div></div><div class="row"><div><h3>Schiariture capello corto</h3></div><div class="price">3 € a cartina</div></div><div class="row"><div><h3>Schiariture capello lungo</h3></div><div class="price">5 € a cartina</div></div><div class="row"><div><h3>Schiariture a mano libera</h3></div><div class="price">da 40 a 80 €</div></div><div class="row"><div><h3>Tonalizzazione solo radice</h3></div><div class="price">25 €</div></div><div class="row"><div><h3>Tonalizzazione totale</h3></div><div class="price">30 €</div></div></div><div><h3 class="gr">Trattamenti</h3><div class="row"><div><h3>Trattamento seboregolatore o ricostruttore</h3></div><div class="price">da 10 a 25 €</div></div><div class="row"><div><h3>Fiala curativa</h3></div><div class="price">10 €</div></div><div class="row"><div><h3>Permanente</h3></div><div class="price">65 €</div></div><div class="row"><div><h3>Stiratura o controperm</h3></div><div class="price">60 – 80 €</div></div><div class="row"><div><h3>Trattamento alla cheratina</h3></div><div class="price">350 €</div></div><div class="row"><div><h3>Nanoplastia</h3></div><div class="price">350 € + 60 € prodotti</div></div></div><div><h3 class="gr">Barba e viso</h3><div class="row"><div><h3>Barba e pulizia contorni</h3></div><div class="price">10 €</div></div><div class="row"><div><h3>Sopracciglia</h3></div><div class="price">5 €</div></div><div class="row"><div><h3>Baffetti</h3></div><div class="price">3 €</div></div></div></div>
+    
   </div>
 </section>
 
 <section id="galleria">
   <div class="wrap">
-    <div class="sec-head reveal"><div><div class="eyebrow">Galleria</div><h2>Dal salone</h2></div><p>Qui andranno le foto dei vostri lavori e del salone, anche prese direttamente dalla vostra <a href="https://www.facebook.com/megahairbyvaleria.it" style="color:var(--accent)">pagina social</a>.</p></div>
-    <div class="gal reveal"><figure><img src="https://images.unsplash.com/photo-1470259078422-826894b933aa?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="" loading="lazy"></figure><figure><img src="https://images.unsplash.com/photo-1605980766335-d3a41c7332a1?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="" loading="lazy"></figure><figure><img src="https://images.unsplash.com/photo-1586266195531-76cfa365cb43?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="" loading="lazy"></figure><figure><img src="https://images.unsplash.com/photo-1614020863825-28a0bb7e3c3c?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="" loading="lazy"></figure></div>
+    <div class="sec-head reveal"><div><div class="eyebrow">Galleria</div><h2>Dal salone</h2></div><p>Alcuni lavori del salone e i nostri spazi in Via dal Lino.</p></div>
+    <div class="gal reveal"><figure><img src="img/onde-ramate.jpg" alt="" loading="lazy"></figure><figure><img src="img/schiariture.jpg" alt="" loading="lazy"></figure><figure><img src="img/salone-corridoio.jpg" alt="" loading="lazy"></figure><figure><img src="img/salone-lavaggi.jpg" alt="" loading="lazy"></figure></div>
   </div>
 </section>
 
@@ -189,7 +192,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
   <div class="wrap">
     <div class="sec-head reveal"><div><div class="eyebrow">Contatti</div><h2>Vieni a trovarci</h2></div><p>In Via dal Lino 19/A, zona Barca. Si prenota per telefono.</p></div>
     <div class="info">
-      <div class="card hours reveal"><h3>Orari</h3><div><span>Lunedì</span><span class="off">Chiuso</span></div><div><span>Martedì – Venerdì</span><span class="">9:00 – 19:00</span></div><div><span>Sabato</span><span class="">8:30 – 18:00</span></div><div><span>Domenica</span><span class="off">Chiuso</span></div></div>
+      <div class="card hours reveal"><h3>Orari</h3><div><span>Lunedì</span><span class="off">Chiuso</span></div><div><span>Martedì – Giovedì</span><span class="">12:30 – 19:00</span></div><div><span>Venerdì</span><span class="">9:00 – 19:00</span></div><div><span>Sabato</span><span class="">8:30 – 16:00</span></div><div><span>Domenica</span><span class="off">Chiuso</span></div></div>
       <div class="card contact reveal"><h3>Dove e come</h3>
         <p>Via dal Lino 19/A, 40134 Bologna</p>
         <p><a href="tel:051435809">051 435809</a></p>
@@ -205,14 +208,14 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 <section style="padding-top:0">
   <div class="wrap faq reveal">
     <div class="eyebrow">Domande frequenti</div>
-    <details open><summary>Come prenoto?</summary><p>Chiamami in salone: troviamo insieme l&#39;orario migliore.</p></details><details><summary>Dove posso parcheggiare?</summary><p>Ci sono i parcheggi Antistadio e Villa Serena, e strisce blu nelle vie vicine.</p></details><details><summary>Fate colori delicati per capelli sensibili?</summary><p>Sì, scelgo i prodotti in base ai tuoi capelli e alla tua cute.</p></details>
+    <details open><summary>Come prenoto?</summary><p>Chiamami in salone allo 051 435809: troviamo insieme l&#39;orario migliore.</p></details><details><summary>Dove posso parcheggiare?</summary><p>Ci sono i parcheggi Antistadio e Villa Serena, e strisce blu nelle vie vicine.</p></details><details><summary>Fate anche tagli da uomo?</summary><p>Sì, il taglio è per donna e uomo, e facciamo anche barba e pulizia dei contorni.</p></details>
   </div>
 </section>
 
 <footer>
   <div class="wrap">
     <span>© 2026 Megahair by Valeria di Monti Valeria · Via dal Lino 19/A, 40134 Bologna · P.IVA 01543621203</span>
-    <span><a href="privacy.html">Privacy</a> · Alcune foto da Unsplash</span>
+    <span><a href="privacy.html">Privacy</a></span>
   </div>
 </footer>
 
