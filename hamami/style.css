@@ -66,7 +66,7 @@ section{padding:140px 0}
 .menu-open .burger span:nth-child(2){top:21px;transform:rotate(-45deg)}
 
 /* hero */
-.hero{position:relative;min-height:100vh;min-height:100svh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;padding:140px 0 120px;isolation:isolate;background:#f6f1ea}
+.hero{position:relative;min-height:100vh;min-height:100svh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;padding:140px 0 180px;isolation:isolate;background:#f6f1ea}
 .aura{position:absolute;inset:-20%;z-index:-3;filter:blur(60px) saturate(1.1)}
 .aura i{position:absolute;border-radius:50%;opacity:.95;will-change:transform}
 .aura i:nth-child(1){width:52vw;height:52vw;left:2%;top:8%;background:radial-gradient(circle,#b3d6e3 0%,rgba(179,214,227,0) 70%);animation:drift1 26s ease-in-out infinite alternate}
